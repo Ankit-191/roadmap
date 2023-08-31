@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&display=swap");
+* {
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+}
+.ff_balsamiq {
+  font-family: "Balsamiq Sans";
+}
+.ff_cherry {
+  font-family: "Cherry Bomb One";
+}
+:root {
+  --fs-sm: 16px;
+  --fs-md: 18px;
+  --fs-lg: 24px;
+  --fs-xl: 28px;
+  --fs-4xl: 50px;
+  --fs-5xl: 60px;
+  --fs-6xl: 69px;
+  --clr-green: #9acc44;
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
+.fs_5xl {
+  font-size: var(--fs-5xl);
+}
+.fs_6xl {
+  font-size: var(--fs-6xl);
+}
+.bg_green {
+  background-color: var(--clr-green);
+}
+.opacity_03 {
+  opacity: 0.3;
+}
+.text_shadow_roadmap {
+  text-shadow: 1px 4px 0px #5ba72b;
+}
+.card_phase {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px 38px 20px 20px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+.card_phase path {
+  transition: all 0.2s linear;
+}
+.card_phase:hover {
+  background: #5ba72b;
+}
+.card_phase:hover path {
+  opacity: 1;
+}
+.btn_cards img {
+  transition: all 0.3s linear;
+}
+.btn_cards:hover img {
+  transform: translateX(4px);
+}
+.text_gray {
+  color: rgba(255, 255, 255, 0.8);
+}
+.card_phase1 {
+  border-radius: 19px;
+  border: 7px solid #fff;
+  background: #5ba72b;
+  padding: 65px;
+}
+.close_btn {
+  cursor: pointer;
+}
+.close_btn:hover svg path {
+  fill: #bfdf89;
+}
+.close_btn:hover svg circle {
+  stroke: #bfdf89;
+}
+.d_none {
+  display: none;
+}
+@media (max-width: 992px) {
+  .card_phase1 {
+    padding: 20px;
+    border: 4px solid #fff;
+  }
+  .preparation {
+    width: 128px;
+    height: 146px;
+  }
+  .community {
+    width: 160px;
+    height: 133px;
+  }
+  .launch {
+    width: 124px;
+    height: 146px;
+  }
+  .real {
+    width: 146px;
+    height: 146px;
+  }
+  .card_phase {
+    padding: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .card_phase1 {
+    padding: 10px;
+    border: 2px solid #fff;
+  }
+  .phase_img {
+    width: 160px !important;
+    height: 160px !important;
+  }
+}
+@media (max-width: 576px) {
+  :root {
+    --fs-sm: 12px;
+    --fs-md: 14px;
+    --fs-lg: 18px;
+    --fs-xl: 22px;
+    --fs-4xl: 30px;
+    --fs-5xl: 40px;
+    --fs-6xl: 48px;
+  }
+  .w_phasel {
+    width: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1167px !important;
+  }
+}
